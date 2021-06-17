@@ -9,6 +9,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 def send_email(user, recipient):
     mail_content = """
+    This is the face of Natasha.
     Your face has been detected!!!
     You have logged into your laptop.
     """
